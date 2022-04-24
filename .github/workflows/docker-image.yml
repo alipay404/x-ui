@@ -36,7 +36,7 @@ jobs:
         name: Dingtalk notification
         uses: ghostoy/dingtalk-action@master
         with:
-          webhook: ${{ secrets.DINGTALK_WEBHOOK}}
+          webhook: ${{ secrets.DINGTALK_WEBHOOK }}
           msgtype: markdown
           content: |
             {
